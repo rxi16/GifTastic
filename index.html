@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GifTastic</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      html {
+        -webkit-tap-highlight-color: #ffffff;
+      }
+      button {
+        cursor: pointer;
+      }
+      #img-demo {
+        text-align: center;
+      }
+      #img-result {
+        cursor: pointer;
+      }
+      #submit {
+        background: white;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">GifTastic</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Cover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#start" title="Start section">Start</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#demo">Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">GifTastic</h1>
+              <p class="intro-text">A responsive, fantastic gif-finder.
+                <br>Retrieved for you from <a href="https://www.giphy.com" target="_blank">www.giphy.com</a></p>
+              <a href="#start" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Start Section -->
+    <section id="start" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <a href="#demo" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>&emsp;
+            <a href="#page-top" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-up animated"></i>
+            </a>
+            <br /><br />
+            <a class="js-scroll-trigger" href="#start"><h2>Start</h2></a>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <h2 id="choose-label">Choose a topic</h2>
+        </div>
+        <div class="col-md-8 col-lg-8">
+          <h2 id="choose-label">Click an image. Enjoy.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-md-4 col-lg-4">
+          <div id="add-topic" class="input-group">
+            <input id="input" type="text" placeholder="+ Add a topic" class="text-center" style="width:70%;" />
+            <button id="submit" type="submit" class="btn input-group-addon" style="width:30%;">Submit</button>
+          </div>
+          <div id="button-div">
+            <button id="yoga" type="submit" class="btn btn-default btn-topics form-control" value="yoga">Yoga</button>
+            <button id="nature" type="submit" class="btn btn-default btn-topics form-control" value="nature">Nature</button>
+            <button id="mint" type="submit" class="btn btn-default btn-topics form-control" value="mint">Mint</button>
+            <button id="negative-space" type="submit" class="btn btn-default btn-topics form-control" value="negative-space">Negative Space</button>
+          </div>
+        </div>
+        <div class="col-md-8 col-lg-8">
+          <card id="card">
+          </card>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <a href="#contact" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>&emsp;
+            <a href="#start" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-up animated"></i>
+            </a>
+            <br /><br />
+            <a class="js-scroll-trigger" href="#demo"><h2>Demo</h2></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
+            <h2>Click each image</h2>
+            <h5 style="text-align:left;">watch Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate <small>become</small> Still <small>become</small> Animate</h5>
+          </div>
+          <div id="demo-still" class="col-md-4 col-lg-4">
+          </div>
+          <div id="demo-animate" class="col-md-4 col-lg-4">
+          </div>
+        </div>
+          <!--</div>-->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <a href="#demo" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-up animated"></i>
+            </a>
+            <br /><br />
+            <a class="js-scroll-trigger" href="#contact"><h2>Connect with Me</h2></a>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/rebecca-ionescu-59248941/" class="btn btn-default btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/rxi16" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+            <br /><br />
+            <a href="#page-top" class="btn btn-circle js-scroll-trigger" style="width:80px;height:80px;padding-top:25px;"><p>Cover</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; rxi16 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+    <!-- logic.js -->
+    <script type="text/javascript" src="logic.js"></script>
+  </body>
+
+</html>
